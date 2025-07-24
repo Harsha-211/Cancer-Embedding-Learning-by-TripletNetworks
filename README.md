@@ -52,18 +52,18 @@ The dataset consists of ~500 images per class from 10 medical categories:
 
 ---
 
-## 📊 Results (Initial Run)
+## 📊 Results
 
-- **Accuracy**: ~41%
+- **Accuracy**: ~87%
 - **Challenges**:
   - Some classes (e.g., Benign vs Malignant) are visually similar
-  - Dataset size small for deep metric learning
+  - Dataset size small for deep metric learning(around 500 images per class)
 
-| Class | Precision | Recall | F1-score |
-|-------|-----------|--------|----------|
-| Brain-Pituitary (3) | 0.50 | 0.68 | 0.57 |
-| Brain-No-Tumor (0)  | 0.27 | 0.54 | 0.36 |
-| Others              | ~0.30 | ~0.20–0.40 | ~0.25–0.38 |
+| Metric         | After Optimization |
+|----------------|--------------------|
+| Accuracy        | **86.92%**         |
+| F1 (macro avg)  | **86%**            |
+| F1 (weighted)   | **87%**            |
 
 ---
 
